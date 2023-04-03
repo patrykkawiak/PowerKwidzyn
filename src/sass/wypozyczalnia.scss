@@ -2,22 +2,22 @@
 @import 'nav.scss';
 
 .first_img {
-	background-image: url('../img/motor1.jpg');
+	background-image: url('../img/benyco_img.jpg');
 }
 .second_img {
-	background-image: url('../img/motor2.jpg');
+	background-image: url('../img/honda.jpg');
 }
 .third_img {
-	background-image: url('../img/motor3.jpg');
+	background-image: url('../img/beneli.jpg');
 }
 .fourth_img {
 	background-image: url('../img/junak.jpg');
 }
 .fifth_img {
-	background-image: url('../img/bike.jpg');
+	background-image: url('../img/barton.jpg');
 }
 .sixth_img {
-	background-image: url('../img/kata-small.jpg');
+	background-image: url('../img/yamaha.jpg');
 }
 
 .pop-up {
@@ -26,7 +26,7 @@
 	position: fixed;
 	height: 100vh;
 	width: 100%;
-	z-index: 100;
+	z-index: 200;
 	justify-content: center;
 	align-items: center;
 	background-color: rgba(0, 0, 0, 0.37);
@@ -56,13 +56,17 @@
 	}
 }
 
-.show-pop-up{
+.show-pop-up {
 	display: flex;
-	animation: reval .3s forwards;
+	animation: reval 0.3s forwards;
 }
 .close-animation {
 	opacity: 1;
-	animation: rev .3s forwards;
+	animation: rev 0.3s forwards;
+}
+
+nav {
+	z-index: 110;
 }
 
 .introduction {
@@ -185,8 +189,8 @@
 				height: 20rem;
 				background-size: cover;
 				background-position: center;
-				cursor: -moz-zoom-in; 
-				cursor: -webkit-zoom-in; 
+				cursor: -moz-zoom-in;
+				cursor: -webkit-zoom-in;
 				cursor: zoom-in;
 			}
 
@@ -245,11 +249,10 @@
 	}
 
 	.pop-up {
-		.pop-up_img{
+		.pop-up_img {
 			min-width: 85%;
 		}
 	}
-
 
 	// intro
 
@@ -298,10 +301,9 @@
 		font-size: 75%;
 	}
 
-	
 	.pop-up {
 		padding: 4rem;
-		.pop-up_img{
+		.pop-up_img {
 			width: 70%;
 			height: 70vh;
 		}
@@ -363,10 +365,9 @@
 		font-size: 81.25%;
 	}
 
-		
 	.pop-up {
 		padding: 4rem;
-		.pop-up_img{
+		.pop-up_img {
 			min-width: 60%;
 			height: 70vh;
 		}
@@ -402,9 +403,9 @@
 
 @media (min-width: 1200px) {
 	.pop-up {
-		.pop-up_img{
+		.pop-up_img {
 			min-width: 50%;
-			height: 70vh;
+			height: 80vh;
 		}
 	}
 }

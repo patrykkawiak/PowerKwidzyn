@@ -306,7 +306,7 @@ header {
 		position: relative;
 		width: 100%;
 		height: 100%;
-		background-image: url('../../dist/img/banner.jpg');
+		background-image: url('../../dist/img/header.jpg');
 		background-size: cover;
 		background-position: center;
 		.content {
@@ -512,13 +512,13 @@ header {
 			}
 
 			.card_one {
-				background-image: url('../../dist/img/vw-gcb24b91c5_1920.jpg');
+				background-image: url('../../dist/img/chuj.jpg');
 			}
 			.card_two {
-				background-image: url('../../dist/img/auto-g3d84dff97_1920.jpg');
+				background-image: url('../../dist/img/extended.jpg');
 			}
 			.card_three {
-				background-image: url('../../dist/img/honda-civic-si-gf3a3899c8_640\ copy.jpg');
+				background-image: url('../../dist/img/extened2.jpg');
 			}
 
 			.card_content {
@@ -613,10 +613,10 @@ header {
 	}
 }
 .katB {
-	background-image: url('../../dist/img/yaris-small.jpg');
+	background-image: url('../../dist/img/katB.jpg');
 }
 .katA {
-	background-image: url('../../dist/img/katA-small.jpg');
+	background-image: url('../../dist/img/katA.jpg');
 }
 
 .faq {
@@ -1017,6 +1017,9 @@ footer {
 			align-items: flex-start;
 			.aboutus_image {
 				width: 50%;
+				img {
+					max-height: 27rem;
+				}
 			}
 			.aboutus_text {
 				width: 50%;
@@ -1028,6 +1031,10 @@ footer {
 			flex-direction: row;
 			gap: 8rem;
 			align-items: center;
+
+			.details_image {
+				max-width: 50%;
+			}
 
 			.details_card {
 				min-width: 25rem;
