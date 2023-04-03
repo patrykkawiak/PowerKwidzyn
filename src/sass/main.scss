@@ -385,10 +385,11 @@ header {
 }
 
 .stats {
+	opacity: 0;
 	padding: 1rem;
 	margin-bottom: 2rem;
 	width: 100%;
-	height: 10rem;
+	height: 8.5rem;
 	background-color: $main-color;
 	.stats_box {
 		display: flex;
@@ -512,7 +513,7 @@ header {
 			}
 
 			.card_one {
-				background-image: url('../../dist/img/chuj.jpg');
+				background-image: url('../../dist/img/elka.jpg');
 			}
 			.card_two {
 				background-image: url('../../dist/img/extended.jpg');
@@ -545,7 +546,6 @@ header {
 		}
 	}
 }
-
 
 .offers {
 	opacity: 0;
@@ -1015,10 +1015,12 @@ footer {
 		.aboutus_content {
 			flex-direction: row-reverse;
 			align-items: flex-start;
+			justify-content: center;
 			.aboutus_image {
-				width: 50%;
+				// width: 50%;
 				img {
-					max-height: 27rem;
+					max-height: 30rem;
+					max-width: 30rem;
 				}
 			}
 			.aboutus_text {
